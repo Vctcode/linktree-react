@@ -1,0 +1,74 @@
+.profile-section {
+  position: relative;
+  margin: 64px 32px 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.share-icon {
+  position: absolute;
+  /* width: 40px; */
+  /* height: 40px; */
+  right: 208px;
+  top: -20px;
+}
+
+.icon-mobile {
+    display: none;
+}
+
+.profile-img {
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background-color: black;
+  margin-bottom: 24px;
+}
+
+.profile-name {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #101828;
+}
+
+.slack-name {
+  display: none;
+  /* visibility: hidden; */
+}
+
+@media screen and (max-width: 900px) {
+    .profile-section {
+        position: relative;
+        margin: 64px 16px 32px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+    .share-icon {
+        position: absolute;
+        /* width: 40px; */
+        /* height: 40px; */
+        right: 0;
+        top: -20px;
+      }
+
+    .icon-desktop {
+        display: none;
+    }
+
+    .icon-mobile {
+        display: block;
+    }
+
+    .profile-name {
+        font-size: 18px;
+        line-height: 28px;
+      }
+    
+}
