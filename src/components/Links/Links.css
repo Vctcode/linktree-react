@@ -7,12 +7,13 @@
   position: absolute;
   display: none;
   width: 300px;
-  margin: -20px 0;
-  padding: 20px;
-  border-radius: 12px;
+  margin: -40px 0 0 100px;
+  padding: 10px;
+  border-radius: 8px;
   z-index: 1;
   color: rgb(220, 220, 220);
-  background: rgba(0, 0, 0, 0.694);
+  background: rgba(0, 0, 0, 0.483);
+  font-size: 14px;
   /* justify-items: center; */
 }
  .links:hover .subtext {

@@ -20,11 +20,48 @@
 }
 
 .profile-img {
+  position: relative;
   width: 88px;
   height: 88px;
   border-radius: 50%;
-  background-color: black;
+  /* background-color: black; */
   margin-bottom: 24px;
+  box-sizing: border-box;
+}
+
+.profile-img .camera-box {
+  display: none;
+  position: absolute;
+  top: 0;
+  /* display: block; */
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
+  background-color: rgba(52, 64, 84, 0.75);
+}
+
+.profile-img:hover .camera-box {
+  display: block;
+}
+
+.profile-img .camera-box .camera {
+  position: absolute;
+  bottom: 10px;
+  left: 42%;
+  /* display: block; */
+  width: 20px;
+  height: 20px;
+  /* background-color: rgba(52, 64, 84, 0.75); */
+}
+
+
+
+.profile-img img {
+  /* width: 100%; */
+  /* position: absolute; */
+  width: 88px;
+  height: 88px;
+  border-radius: 50%;
 }
 
 .profile-name {
