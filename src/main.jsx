@@ -2,8 +2,8 @@ import React from 'react'
 import { createBrowserRouter, RouterProvider, Route, } from 'react-router-dom'
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import Home from './routes/home'
-import Contact from './routes/contact'
+import Home from './routes/Home'
+import Contact from './routes/Contact'
 import Footer from './components/Footer'
 
 const router = createBrowserRouter([
@@ -11,7 +11,9 @@ const router = createBrowserRouter([
     path: "/",
     element: <Home />
   },
-  {
+  { {
+    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  }
     path: "contact",
     element: <Contact />,
   }

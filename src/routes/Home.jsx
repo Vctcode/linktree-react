@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import ProfileSection from "../components/ProfileSection";
 import Links from "../components/Links";
 import Socials from "../components/Socials";
-import Contact from "./contact";
+import Contact from "./Contact";
 
 export default function Home() {
     const slackUsername = "vct-code"
