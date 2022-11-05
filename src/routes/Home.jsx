@@ -56,8 +56,7 @@ export default function Home() {
                 />
 
                 
-                <Links id="contact" link="./contact" text="Contact Me" subtext="" />
-
+                <Link to="contact">Contact me</Link>
 
                 <Socials />
             </div>
