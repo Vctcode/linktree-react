@@ -11,9 +11,7 @@ const router = createBrowserRouter([
     path: "/",
     element: <Home />
   },
-  { {
-    "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
-  }
+  { 
     path: "contact",
     element: <Contact />,
   }
