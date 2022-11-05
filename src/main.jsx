@@ -5,6 +5,9 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
+    {/* {
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+} */}
     <App />
   </React.StrictMode>
 )
